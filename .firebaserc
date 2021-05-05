@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "my-acc-portfolio"
+  },
+  "targets": {
+    "my-acc-portfolio": {
+      "hosting": {
+        "my-acc-portfolio": [
+          "my-acc-portfolio"
+        ]
+      }
+    }
+  }
+}
