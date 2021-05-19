@@ -12,6 +12,7 @@ import { ToolsListComponent } from './components/tools-list/tools-list.component
 import { ContactFormComponent } from './components/contact-form/contact-form.component';
 import { AngularFirestoreModule } from '@angular/fire/firestore';
 import { AngularFireModule } from '@angular/fire';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 const firebaseConfig = {
   apiKey: "AIzaSyDHoxehqp2k4AdhyGUhBqqpwtni5DvQoiQ",
@@ -36,7 +37,9 @@ const firebaseConfig = {
   imports: [
     BrowserModule,
     AppRoutingModule,
-    AngularFireModule.initializeApp(firebaseConfig)
+    AngularFireModule.initializeApp(firebaseConfig),
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
